@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Album a day!</title>
+	<link rel="stylesheet" type="text/css" href="albumstyle.css">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<h1>ALBUM A DAY PROJECT</h1>
+	<div class="thumb">
+	<img src="http://cdn.shopify.com/s/files/1/0558/2081/files/1FireWalkWithMe_blog_1024x1024.jpg?v=1483482124">
+	</div>
+	<div class="content">
+		<h3>ARTIST: </h3>
+		<h3>ALBUM: </h3>
+		<h3>RECORD LABEL: </h3>
+	</div>
+	</div>
+	</div>
+
+<script>
+  (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+  function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+  e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+  e.src='//www.google-analytics.com/analytics.js';
+  r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+  ga('create','UA-52746336-1');ga('send','pageview');
+  var isCompleted = {};
+  function sampleCompleted(sampleName){
+    if (ga && !isCompleted.hasOwnProperty(sampleName)) {
+      ga('send', 'event', 'WebCentralSample', sampleName, 'completed'); 
+      isCompleted[sampleName] = true;
+    }
+  }
+</script>
+<script type="text/javascript" href="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="album.js"></script>
+</body>
+</html>

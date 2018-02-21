@@ -1,0 +1,52 @@
+body {
+	background-color: #2f4f4f;
+}
+
+h1 {
+	font-family: Playfair Display;
+	color: #b8860b;
+	font-size: 70px;
+	text-align: center;
+}
+
+h3 {
+	margin-left: 10px;
+	padding: 10px;
+}
+
+.container {
+	margin: 20px 20px 0 0;
+	border: 5px solid #333;
+	overflow: auto;
+}
+.thumb {
+	float: left;
+}
+.thumb img {
+	display: block;
+	height: 500px;
+	weight: 500px;
+	padding: 10px;
+}
+.content {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+	
+	
+}
