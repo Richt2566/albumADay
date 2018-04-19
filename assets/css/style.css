@@ -7,6 +7,25 @@ h1 {
 	color: #b8860b;
 	font-size: 70px;
 	text-align: center;
+	margin: 0;
+}
+
+.nav-div {
+	margin-left: 525px;
+}
+
+li {
+	list-style-type: none;
+	display: inline;
+	color: #b8860b;
+	text-align: center;
+	margin: 0 20px
+}
+
+a {
+	text-decoration: none;
+	color: #b8860b;
+	text-align: center;
 }
 
 h3 {
@@ -19,32 +38,26 @@ h3 {
 	border: 5px solid #333;
 	overflow: auto;
 }
+
 .thumb {
 	float: left;
 }
+
 .thumb img {
 	display: block;
 	height: 500px;
-	weight: 500px;
+	width: 500px;
 	padding: 10px;
 }
+
 .content {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.review-section {
+	padding: 15px;
+	font-size: 20px;
+}
 
 @media only screen and (max-width: 1000px) {
 	
