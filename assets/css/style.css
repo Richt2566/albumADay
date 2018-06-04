@@ -3,7 +3,7 @@ body {
 	margin: 0;
 }
 
-.container > h1 {
+.container1 > h1 {
 	font-family: 'Bowlby One SC', cursive;
 	color: #b8860b;
 	font-size: 90px;
@@ -29,21 +29,21 @@ a {
 	text-align: center;
 }
 
+/* .the-rundown {
+	color: #8F1A00;
+} */
+
 h3 {
-	margin-left: 10px;
 	padding: 10px;
 }
 
-.container {
+.container1 {
 	/* margin: 20px 20px 0 0; */
 	border: 5px solid #333;
-	overflow: auto;
+	/* overflow: auto; */
 	background-color: #2f4f4f;
+	color: #D5A100;
 }
-
-/* .thumb {
-	float: left;
-} */
 
 .thumb img {
 	display: block;
@@ -57,6 +57,11 @@ h3 {
 .review-section {
 	padding: 15px;
 	font-size: 20px;
+	margin-top: 50px;
+}
+
+.review-section > p {
+	color: #DADDAC;
 }
 
 @media (max-width: 575.98px) {
